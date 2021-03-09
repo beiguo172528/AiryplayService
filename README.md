@@ -7,11 +7,13 @@
 1. 各种权限
 <key>NSLocalNetworkUsageDescription</key>
 <string>是否允许使用你的本地网络?以便你的投屏。</string>
+
 <key>NSAppTransportSecurity</key>
 <dict>
     <key>NSAllowsArbitraryLoads</key>
     <true/>
 </dict>
+
 <key>NSBonjourServices</key>
 <array>
     <string>_tictactoe._tcp</string>
@@ -25,3 +27,6 @@
 
 3.取消服务
 - (void)removeRecordService;
+
+GitHub:https://github.com/beiguo172528/SQLAiryplayService
+简书:https://www.jianshu.com/u/48c545d8fd58
